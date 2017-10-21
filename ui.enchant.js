@@ -38,7 +38,7 @@
  *
  */
 
-enchant.ui = { assets: ['pad.png', 'apad.png'] };
+enchant.ui = { assets: ['pad.png'] };
 
 /**
  * 方向キーパッドのクラス: Pad

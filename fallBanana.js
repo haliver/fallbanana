@@ -113,7 +113,6 @@ function addBanana(pos){
 		if(this.intersect(player)){
 			game.rootScene.removeChild(this);
 			game.score ++;
-			game.assets['ok_rob.wav'].clone().play();
 		}else{
 			this.y += 3;
 		}
